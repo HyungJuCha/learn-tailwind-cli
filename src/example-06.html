@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>06 - Tailwind CSS</title>
+    <link rel="icon" href="/assets/favicon.svg" />
+    <link
+      rel="preload"
+      as="font"
+      href="/assets/font/pretendard/woff2/PretendardVariable.woff2"
+    />
+    <link rel="stylesheet" href="/styles/output.css" />
+  </head>
+  <body>
+    <div class="bg-blue-300 grid grid-cols-[1fr_100px] gap-2 p-4 relative">
+      <div class="grid grid-cols-subgrid grid-rows-subgrid col-span-2">
+        <div class="font-bold text-xl h-10">news</div>
+        <div class="absolute right-10 flex items-center">
+          <svg
+            width="16"
+            height="17"
+            viewBox="0 0 16 17"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect x="0.5" y="1" width="15" height="15" stroke="#0F0F0F" />
+            <path d="M5.00003 8.52114H11" stroke="#0F0F0F" />
+          </svg>
+        </div>
+      </div>
+      <div class="grid grid-cols-subgrid grid-rows-subgrid col-span-2">
+        <div class="truncate">
+          [MTN] 이디야 커피, 조각 케이크 2종 출시 어쩌구저쩌구123123123
+        </div>
+        <div>2025.03.14</div>
+      </div>
+      <div class="grid grid-cols-subgrid grid-rows-subgrid col-span-2">
+        <div class="truncate">
+          [아시아 경제] 이디야 커피.'비니스트 커피믹스 출시 어쩌구저쩌구123123
+        </div>
+        <div>2025.03.14</div>
+      </div>
+    </div>
+  </body>
+</html>
