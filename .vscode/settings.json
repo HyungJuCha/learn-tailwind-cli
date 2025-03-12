@@ -15,11 +15,5 @@
   },
   "tailwindCSS.includeLanguages": {
     "plaintext": "html"
-  },
-  "files.watcherExclude": {
-    "**/output.css": true
-  },
-  "files.exclude": {
-    "**/output.css": true
   }
 }
